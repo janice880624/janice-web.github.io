@@ -1,79 +1,70 @@
-/* * {
-  border: 1px solid black;
-} */
-.top{
-  padding: 0;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ0mUSE8o3cTo79qyG9y1LXdjyWmPIU-1imquo5d4ZkO_WSoBW-&usqp=CAU");
-  width: 100%;
-  height: 240px;
-  background-size: cover;
-  background-position: center;
+img {
+  width: 100px;
+  height: 100px;
 }
 
-section{
-  padding: 50px;
+.covid1 {
+  animation-name: covid1;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
-.text-container{
-  width: 300px;
-  margin: 0 auto 12px auto;
-  border-radius: 20px;
-  padding: 12px;
-  background-color: rgba(255, 255, 255, 0.4);
+.covid2 {
+  animation-name: covid2;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.covid3 {
+  animation-name: covid3;
+  animation-duration: 12s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
   cursor: pointer;
-  box-shadow: 4px 4px 12px white;
-  color: #4a4a4a;
-  transition: .3s ease-in-out;
+  transition: 1s ease-in-out;
+  border-radius: 50%;
 }
 
-.text-container :hover{
-  transform: translateY(6px);
-  background-color: rgba(255, 255, 255, 0.75);
-  border-radius: 8px;
-}
-
-.text-container:hover .text1{
-  display: block;
-}
-
-.text1{
-  display: none;
-}
-
-html, body{
-  width: 100%;
-  height: 100%;
-}
-
-body{
-  background-color: #07ddd6;
-}
-
-h4{
-  font-size: 18px;
-  line-height: 18px;
-  margin: 0;
-  margin-bottom: 10px;
-}
-
-h5{
-  font-size: 14px;
-  line-height: 14px;
-  margin: 0;
-  margin-bottom: 10px;
-}
-
-@media only screen and (max-width: 414px){
-  section{
-    padding: 20px;
+@keyframes covid1 {
+ 0% {
+    transform: translateY(0px);
   }
-
-  h4{
-    font-size: 15px
+ 50% {
+   transform: translateY(300px);
   }
+  100% {
+   transform: translateY(0px);
+  }
+}
 
-  .text-container{
-    width: 300px;
-    background-color: #7FFFD4;
+@keyframes covid2 {
+ 0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+ 50% {
+   transform: translateY(200px) rotate(100deg);
+  }
+  100% {
+   transform: translateY(0px) rotate(0deg);
+  }
+}
+
+
+
+.covid3:hover {
+  background-color: white;
+}
+
+@keyframes covid3 {
+ 0% {
+    transform: translatex(0px) rotate(0deg) scale(1);
+  }
+ 50% {
+   transform: translatex(200px) rotate(200deg) scale(5);
+  }
+  100% {
+   transform: translatex(0px) rotate(0deg) scale(1);
   }
 }
