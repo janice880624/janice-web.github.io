@@ -6,6 +6,10 @@ body,html {
   font-family: 'Trade Winds', '微軟正黑體';
 }
 
+body {
+  margin: 0px;
+}
+
 .header-title {
   float: left;
   font-size: 20px;
@@ -65,10 +69,16 @@ body,html {
   background-color: #c2e7fa;
 }
 
+.forth {
+  clear: both;
+  background-color: #c2e7fa;
+}
+
 .title {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 1.33;
   letter-spacing: 4.8px;
+  font-weight: bold;
   color: var(--greyish-brown);
   padding: 72px 0px 0px 47px;
   font-variant: normal;
@@ -76,7 +86,7 @@ body,html {
 }
 
 .section-img {
-  padding: 13px 0px 0px 54px;
+  padding: 13px 0px 30px 54px;
 }
 
 .intro {
@@ -113,13 +123,119 @@ body,html {
   margin-left: 600px;
 }
 
-@media screen and (max-width:767px){
-   css for mobile .......
+.five {
+  clear: both;
+  background-color: #ffeae7;
+}
+
+.intro-big {
+  font-size: 48px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #ff9383;
+  margin: 0px;
+  padding-top: 72px;
+}
+
+.intro-small {
+  font-size: 21px;
+  line-height: 1.19;
+  letter-spacing: 4.2px;
+  text-align: center;
+  color: #292929;
+}
+
+footer{
+  padding: 57px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  color: #7f7f7f;
+}
+
+.final-img1 {
+  text-align: left;
+}
+
+.final-2 {
+  text-align: right;
+}
+
+.name {
+  font-size: 21px;
+  letter-spacing: 2px;
+  color: #4b4b4b;
+}
+
+.name-intro {
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 1.52px;
+  color: #292929;
+}
+
+.five {
+  width: 100%;
+}
+
+#final-img1, #grace, #final-img2, #janice{
+    display: inline-block;
 }
 
 
-@media screen and (min-width:768px) and (max-width:1024px){
-   css for pad .......
+
+
+@media screen and (max-width:767px){
+
+  .header-title{
+    float: left;
+    font-size: 18px;
+    margin: 10px 0px 10px 10px;
+  }
+
+  .title-img-2 {
+    width: 25px;
+    height: 25px;
+    margin:10px 0px 10px 0px;
+    padding: 0px 20px;
+  }
+
+  .title-img-1 {
+    width: 25px;
+    height: 25px;
+    margin:10px 0px 10px 0px;
+    padding: 0px;
+  }
+  .first-img-1 {
+    padding-top: 20px;
+  }
+  div.title {
+    padding: 20px;
+    font-size: 20px;
+  }
+  p.intro {
+    padding: 10px;
+    text-align: center;
+  }
+
+  img.section-img {
+    padding: 0px 0px 0px 36px;
+    width: 300px;
+    vertical-align: middle;
+  }
+   .second-link {
+     width: 65px;
+     margin-left: 10px;
+   }
+   .third-link {
+     width: 65px;
+     margin-left: 0px;
+   }
+   p.text {
+     text-align: center;
+     margin: 0px;
+     font-size: 12px;
+   }
 }
 
 
