@@ -231,12 +231,18 @@ footer{
     vertical-align: middle;
   }
 
-  .second-img, .third-img, .four-img {
+  .second-img, .third-img, .four-img, .second-link, .third-link {
     padding: 0px;
     width: 300px;
   }
 
-  .second-link {
+  .second-link, .third-link {
+    padding: 0px;
+    width: 100px;
+    margin: 0px;
+  }
+
+  /* .second-link {
     width: 100px;
     margin: 0px;
     padding: 0px 135px;
@@ -247,7 +253,7 @@ footer{
     width: 100px;
     margin:10px 0px 10px 0px;
     padding: 0px 135px;
-  }
+  } */
 
   .second-text, .third-text, .four-text {
     float: inherit;
