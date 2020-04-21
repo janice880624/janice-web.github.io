@@ -1,0 +1,178 @@
+/* * {
+  border: 1px solid black;
+} */
+body,html {
+  font-family: 'Trade Winds', '微軟正黑體';
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+main{
+  background-image: url("img/sec.png");
+  background-size: cover;
+  padding: 100px;
+  text-align: center;
+}
+
+.intro-cont{
+  text-align: center;
+}
+
+.intro{
+  background-color: #5572fb;
+  padding: 100px 100px 350px 80px;
+}
+
+.intro-title{
+  vertical-align: top;
+}
+
+h1{
+  width: 500px;
+  height: 74px;
+  font-size: 70px;
+  font-weight: normal;
+  font-family: Oswald;
+  color: #cbd3f9;
+  margin: 0px;
+}
+
+
+p{
+  color: white;
+  line-height: 1.8;
+  letter-spacing: 7px;
+  display: inline-block;
+  font-size: 35px;
+  float: right;
+  margin-right: 50px;
+}
+
+.video{
+  padding: 100px;
+  background-image: url("img/sec.png");
+  background-size: cover;
+  text-align: center;
+}
+
+.date {
+  background-color: #5572fb;
+  text-align: center;
+  padding: 100px 100px 100px 150px;
+}
+
+.date h1 {
+  text-align: left;
+}
+
+.date-cont {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  color: white;
+  border-left: 4px solid #50e3c2;
+  padding-left: 25px;
+  margin-right: -50px;
+  display: inline-block;
+  margin-left: 250px;
+}
+
+li {
+  text-align: left;
+  font-size: 30px;
+  padding: 10px 100px 10px 0px;
+  font-stretch: condensed;
+}
+
+.agenda {
+  background-color: #fb5f3c;
+  text-align: center;
+  padding: 100px 100px 100px 150px;
+}
+
+#agenda_div1 {
+  text-align: left;
+  line-height:50px;　
+  padding:20px;　
+  float:left;　
+}
+
+#agenda_div2 {
+  width:200px;
+  line-height:50px;
+  float: left;
+  color: #ffff;
+  padding-left: 350px;
+}
+
+#agenda_div3 {
+  width:200px;
+  line-height:50px;
+  float: right;
+  color: #ffff;
+  padding-right: 440px;
+}
+
+.agenda h2{
+  font-size: 30px;
+  margin: 0px;
+}
+
+footer{
+  background-color: #eaebfc;
+  padding: 50px;
+  text-align: center;
+}
+
+h6 {
+  color: #9a9ab1;
+}
+
+.footer_web{
+  padding: 12px;
+  margin: 6px;
+  background-color: #5572fb;
+  color: #50e3c2;
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  width: 200px;
+}
+
+.footer_fb{
+  padding: 12px;
+  margin: 6px;
+  background-color: #5572fb;
+  color: #50e3c2;
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  width: 200px;
+  transition: .5s ease-in-out;
+}
+
+.footer_ig{
+  padding: 12px;
+  margin: 6px;
+  background-color: #fb5f3c;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  width: 200px;
+  transition: .5s ease-in-out;
+}
+
+/* a:link {color:#BB0000;} /* 設定尚未點閱過的連結樣式顏色 */
+
+/* a:visited {color:#00BB00;} /* 設定過去曾經閱過的連結顏色 */
+
+/* a:hover {color:#BB00FF;} /* 設定滑鼠游標指在連結位置上的樣式顏色 */
+
+/* a:active {color:#0000BB;} /* 設定上點擊過的連結樣式顏色 */
