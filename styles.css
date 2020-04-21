@@ -237,16 +237,16 @@ footer{
   }
 
   .second-link {
-    width: 65px;
-    margin:0px;
-    padding: 0px 150px;
+    width: 100px;
+    margin: 0px;
+    padding: 0px 135px;
     transform:translateY(-10%);
   }
 
   .third-link  {
-    width: 65px;
+    width: 100px;
     margin:10px 0px 10px 0px;
-    padding: 0px 150px;
+    padding: 0px 135px;
   }
 
   .second-text, .third-text, .four-text {
