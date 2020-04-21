@@ -187,9 +187,6 @@ footer{
   display: inline-block;
 }
 
-
-
-
 @media screen and (max-width:767px){
 
   .header-title{
@@ -239,10 +236,17 @@ footer{
     width: 300px;
   }
 
-  .second-link, .third-link  {
+  .second-link {
+    width: 65px;
+    margin:0px;
+    padding: 0px 50%;
+    transform:translateY(-10%);
+  }
+
+  .third-link  {
     width: 65px;
     margin:10px 0px 10px 0px;
-    padding: 0px;
+    padding: 0px 50%;
   }
 
   .second-text, .third-text, .four-text {
