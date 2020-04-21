@@ -239,14 +239,14 @@ footer{
   .second-link {
     width: 65px;
     margin:0px;
-    padding: 0px 50%;
+    padding: 0px 150px;
     transform:translateY(-10%);
   }
 
   .third-link  {
     width: 65px;
     margin:10px 0px 10px 0px;
-    padding: 0px 50%;
+    padding: 0px 150px;
   }
 
   .second-text, .third-text, .four-text {
