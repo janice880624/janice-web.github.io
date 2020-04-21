@@ -85,7 +85,7 @@ body {
   margin: 0px;
 }
 
-.section-img {
+.four-img, .third-img, .second-img {
   padding: 13px 0px 30px 54px;
 }
 
@@ -94,7 +94,7 @@ body {
   margin: 0px;
 }
 
-.text {
+.second-text, .third-text, .four-text {
   float: right;
   font-size: 14px;
   line-height: 1.79;
@@ -107,7 +107,7 @@ body {
   display: block;
   text-align: center;
   position: right;
-  margin-left: 680px;
+  margin-left: 720px;
   transform:translateY(-100%);
 }
 
@@ -120,12 +120,13 @@ body {
   display: block;
   text-align: center;
   position: right;
-  margin-left: 600px;
+  margin-left: 710px;
+  padding-bottom: 20px;
 }
 
-.five {
+.people {
   clear: both;
-  background-color: #ffeae7;
+  background-color: white;
 }
 
 .intro-big {
@@ -143,6 +144,7 @@ body {
   letter-spacing: 4.2px;
   text-align: center;
   color: #292929;
+  margin: 16px 0px 72px 0px;
 }
 
 footer{
@@ -151,35 +153,38 @@ footer{
   font-size: 16px;
   letter-spacing: 3.2px;
   color: #7f7f7f;
+  background-color: #ffd6d6;
 }
 
-.final-img1 {
-  text-align: left;
+#grace, #janice, #grace-intro, #janice-intro {
+  display: inline-block;
+  vertical-align: top;
 }
 
-.final-2 {
-  text-align: right;
+#grace-img {
+  padding-left: 64px;
+  padding-bottom: 94px;
 }
 
-.name {
+#janice-img {
+  padding-left: 36px;
+}
+
+#name {
   font-size: 21px;
   letter-spacing: 2px;
-  color: #4b4b4b;
+  margin: 0px 0px 12px 18px ;
 }
 
-.name-intro {
+#name-intro {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 1.52px;
-  color: #292929;
-}
-
-.five {
-  width: 100%;
+  margin: 0px 18px;
 }
 
 #final-img1, #grace, #final-img2, #janice{
-    display: inline-block;
+  display: inline-block;
 }
 
 
@@ -218,27 +223,71 @@ footer{
     text-align: center;
   }
 
-  img.section-img {
-    padding: 0px 0px 0px 36px;
-    width: 300px;
-    vertical-align: middle;
+  .first {
+    text-align: center;
   }
-   .second-link {
-     width: 65px;
-     margin-left: 10px;
-   }
-   .third-link {
-     width: 65px;
-     margin-left: 0px;
-   }
-   p.text {
-     text-align: center;
-     margin: 0px;
-     font-size: 12px;
-   }
-}
 
+  .second, .third, .forth {
+    text-align: center;
+  }
 
-@media screen and (min-width:1025px){
-   css for desktop .......
+  .link {
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .second-link, .third-link {
+    margin: 0px;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .second-img, .third-img, .four-img {
+    vertical-align: middle;
+    padding: 0px;
+    width: 300px;
+  }
+
+  .second-link, .third-link  {
+    width: 65px;
+  }
+
+  .second-text, .third-text, .four-text {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px;
+  }
+
+  .text {
+    font-size: 12px;
+    padding: 0px;
+  }
+
+  #grace, #janice {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  #grace-img, #janice-img {
+    padding: 0px;
+  }
+  #name {
+    margin: 10px 0px;
+  }
+
+  .intro-big {
+    font-size: 40px;
+    padding-top: 20px;
+  }
+
+  .intro-small {
+    font-size: 18px;
+    margin: 16px 0px;
+  }
+
+  footer {
+     padding: 20px;
+     font-size: 8px;
+  }
+
 }
