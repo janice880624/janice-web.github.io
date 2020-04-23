@@ -3,104 +3,127 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> TMPA 0222 </title>
+    <title> 大五員倫小組 防疫網站 </title>
     <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
-    <!--主要區塊-->
-    <main>
-      <img src="img/main.png" alt="main image">
-    </main>
 
-    <!--第一區塊-->
-    <section class="intro">
-      <div class="intro-cont">
-        <h1 class="intro-title"> Introduction </h1>
-        <p>
-          新生命小組教會是一個充滿年輕人、新世代的非典型教會！<br>
-          新生命小組教會是一個充滿年輕人、新世代的非典型教會！<br>
-          新生命小組教會是一個充滿年輕人、新世代的非典型教會！<br>
-          新生命小組教會是一個充滿年輕人、新世代的非典型教會！
-        </p>
+    <section class="main">
+      <div class="header">
+        <span class="header-title"> 大五員倫小組 防疫網站 </span>
+        <img src = "img/christ.png" class="title-img-2">
+        <img src = "img/church.png" class="title-img-1">
       </div>
     </section>
 
-    <!--第二區塊-->
-    <section class="video">
-      <iframe width="78%" height="500"
-          src="https://www.youtube.com/embed/qTdBtNKX7pY"
-          frameborder="0" allowfullscreen>
-          抱歉!您的瀏覽器尚未支援此影片功能!
-      </iframe>
+    <section class="first">
+      <img src = "img/ten.png" class="first-img-1">
+      <p class="first-text">
+        在這人心惶恐，充滿不安的世代。如今疫情橫行，防疫措施可不能少！</br>
+        人人都要拾起禱告的權柄，為疫情，為台灣，為世界來守望！宣告耶和 </br>
+        華沙龍要降臨在世上每個需要平安的地方！
+      </p>
+      <img src = "img/jesus.png" class="first-img-2">
     </section>
 
-    <!--第三區塊-->
-    <section class="date">
-      <div class="data-cont">
-        <h1> Date & <br>Location </h1>
-        <ul>
-          <li> 台北場 </li>
-          <li> 2020/06/23~06/30 </li>
-          <li> 台北新生命小組教會會堂 </li>
-          <li> &nbsp </li>
-          <li> 主題館導覽 </li>
-          <li> 2020/06/23 10:00~17:00 </li>
-          <li> 台北新生命小組教會會堂 </li>
-        </ul>
-        <ul>
-          <li> 高雄場 </li>
-          <li> 2020/06/23 10:00~17:00 </li>
-          <li> 高雄新生命小組教會會堂 </li>
-          <li> &nbsp </li>
-          <li> 主題館導覽 </li>
-          <li> 2020/06/23 10:00~17:00 </li>
-          <li> 高雄新生命小組教會會堂 </li>
-        </ul>
+    <section class="second">
+      <div class="title"> 防疫動起來 </br> 口罩套DIY </div>
+      <p class="intro">【防疫懶人包漫畫】 創作者：Grace</p>
+      <img src = "img/comic.png" class="second-img">
+      <p class="second-text">
+        今天就用漫畫教大家簡易的口罩套DIY流程，</br>
+        『布，裁，黏，套』簡單4個步驟，客製屬於</br>
+        自己的口罩套！</br></br>
+
+        🌟大家都完成了嗎？是不是比想像中還要簡</br>
+        單！防疫措施除了預備口罩套，更不能少了禱</br>
+        告的大能！</br></br>
+
+        羅馬書8：31『神若幫助我們，誰能抵擋我們</br>
+        呢？』</br></br>
+
+        雖然疫情持續擴散，但在禱告中我們仍帶著信</br>
+        心與盼望，積極防疫、彼此關懷，成為裡外剛</br>
+        強的防疫大軍！
+      </p>
+      <a href="https://www.newlife.org.tw/cell_group/%e5%93%a1%e5%80%ab%e5%b0%8f%e7%b5%84/" target="_blank" >
+          <img src="img/link1.png" class="second-link">
+      </a>
+      </div>
+
+    </section>
+
+    <section class="third">
+      <div class="title"> 疫情延燒 </br> 你可以這樣禱告 </div>
+      <p class="intro">【Pray for the world】</p>
+      <img src = "img/pray.png" class="third-img">
+      <p class="third-text">
+        ［為台灣來禱告，為國與國一起代禱］</br></br>
+
+          1. 為阿中部長與防疫單位：求主賜他們智慧和</br>
+          身心平安，指教他們帶領前線做好防疫政策。</br></br>
+
+          2. 為全球經濟：為因疫情重挫的產業禱告，求</br>
+          主保守民生問題，能藉此產業轉型，甚至興起新</br>
+          型態產業，經濟快速復甦。</br></br>
+
+          3. 為台灣能做醫療外交服事各國：求主幫助台</br>
+          灣，在醫療上的卓越能成為幫手去服事各國。</br></br>
+
+          4. 為美歐亞各國疫情：主你看到這世上有許多</br>
+          的災難跟眼淚，求你擦去這些眼淚，醫治傷痛。
+      </p>
+      <a href="https://www.newlife.org.tw/cell_group/%e5%93%a1%e5%80%ab%e5%b0%8f%e7%b5%84/" target="_blank" >
+          <img src="img/link2.png"class="third-link">
+      </a>
+    </section>
+
+    <section class="forth">
+      <div class="title"> 健康補給小學堂 </br> 小七也有防疫食品 </div>
+      <p class="intro">【防疫食品一起吃起來】</p>
+      <img src = "img/711.png" class="four-img">
+      <p class="four-text">
+          本週小組整理7-11三類飲食，從「食物、零</br>
+          食、飲料」精心挑選3樣增強抵抗力、免疫力的</br>
+          好東西要分享給大家喔！(• ω•́)</br></br>
+
+          🍪食物:</br>
+          ・優格:補充雷特氏菌，增加腸胃好菌</br>
+          ・香蕉:補充維他命 B2，膳食纖維促進腸胃蠕動</br>
+          ・綜合堅果:含有豐富維生素與脂肪酸，有益心</br>
+          血管健康，每天約手心大小的份量</br></br>
+
+          🍰零食：</br>
+          ・果乾:在同等重量下，水果乾的膳食纖維、維</br>
+          生素和礦物質等含量，可高達水果數倍！
+      </p>
+      <a href="https://www.newlife.org.tw/cell_group/%e5%93%a1%e5%80%ab%e5%b0%8f%e7%b5%84/" target="_blank" >
+          <img src="img/link2.png"class="third-link">
+      </a>
+    </section>
+
+    <section class="people">
+      <p class="intro-big"> Created by… </p>
+      <p class="intro-small"> 小畫家少女與機械系小孩攜手合作 </p>
+      <div id="grace">
+        <img src="img/grace.png" alt="grace" id="grace-img">
+        <div id="grace-intro">
+          <p id="name"> Grace </p>
+          <p id="name-intro"> 視覺設計師 ＆ 插畫家少 </br> 女。夢想是能每天看漫畫 </br> 過日子。</p>
+        </div>
+      </div>
+      <div id="janice">
+        <img src = "img/janice.png" id="janice-img">
+        <div id="janice-intro">
+          <p id="name"> 尚蓁 </p>
+          <p id="name-intro"> 不乖乖讀機械跑去當程式</br>教育講師的小孩。</p>
+        </div>
       </div>
     </section>
 
-    <!--第五區塊-->
-    <section class="agenda">
-      <div id="agenda_div1">
-        <h1> Agenda </h1>
-      </div>
-      <div id="agenda_div2">
-        <h2> 06/23 </h2>
-      </div>
-      <div id="agenda_div3">
-        <h2> 06/24 </h2>
-      </div>
-      <div style="clear:both;"></div>
-        <ul>
-          <li> 10:00~11:00 序幕 </li>
-          <li> 11:00~12:00 研討會 </li>
-          <li> 12:00~13:00 休息&午餐 </li>
-          <li> 13:00~16:00 研討會 </li>
-          <li> 16:00~17:00 表演 </li>
-          <li> 17:00~18:00 研討會 </li>
-          <li> 18:00~19:00 休息&晚餐 </li>
-          <li> 19:00~20:00 復興特會</li>
-        </ul>
-        <ul>
-          <li> 10:00~11:00 序幕 </li>
-          <li> 11:00~12:00 研討會 </li>
-          <li> 12:00~13:00 休息&午餐 </li>
-          <li> 13:00~16:00 研討會 </li>
-          <li> 16:00~17:00 表演 </li>
-          <li> 17:00~18:00 研討會 </li>
-          <li> 18:00~19:00 休息&晚餐 </li>
-          <li> 19:00~20:00 復興特會</li>
-        </ul>
-    </section>
-
-    <!-- 第六個頁尾 連結按鈕的應用 -->
     <footer>
-      <!-- link連結按鈕寫法 target代表視窗開啟到哪個位置-->
-      <a href="http://www.newlife.org.tw" target="_blank" class="footer_web"> NEWLIFE CHURCH </a>
-      <a href="https://www.facebook.com/ournewlifechurch/" target="_blank" class="footer_fb"> FACEBOOK </a>
-      <a href="https://www.instagram.com/nlctw/" target="_blank" class="footer_ig"> INSTAGRAM </a>
-      <h6>copyright 2020 newlife church.</h6>
+      <span> ©2020 All Rights Reserved by 員倫小組. </span>
     </footer>
 
   </body>
