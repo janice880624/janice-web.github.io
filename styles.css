@@ -239,6 +239,15 @@ footer{
   .section-right {
     padding-left: 40px;
   }
+
+  .first-text {
+    font-size: 18px;
+  }
+
+  .header-title {
+    font-size: 20px;
+    margin-left: 0px;
+  }
 }
 @media (min-width:768px) and (max-width:1000px) {
   img.section-img1 {
@@ -259,6 +268,7 @@ footer{
 
   .header-title {
     font-size: 20px;
+    margin-left: 10px;
   }
 
   .title-img-1 {
@@ -275,6 +285,10 @@ footer{
   .title-img-3 {
     width: 27px;
     height: 25px;
+  }
+
+  .first-text {
+    font-size: 16px;
   }
 }
 
@@ -296,27 +310,52 @@ footer{
   }
 
   .header-title {
-    font-size: 20px;
+    font-size: 16px;
+    margin-left: 10px;
   }
 
   .title-img-1 {
     width: 25px;
     height: 25px;
+    padding-right: 20px;
   }
 
   .title-img-2 {
     width: 30px;
     height: 25px;
-
+    padding-right: 20px;
   }
 
   .title-img-3 {
     width: 27px;
     height: 25px;
+    padding-right: 20px;
   }
 
   footer{
     font-size: 14px;
+  }
+
+  .first-text {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 23px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .section-left {
+
+  }
+
+  .intro {
+    padding-top: 20px;
+  }
+
+  .section-right{
+    margin-top: -20px;
   }
 
 }
